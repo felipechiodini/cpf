@@ -1,5 +1,5 @@
 {
-    "name": "felipechiodini/cpf-validator",
+    "name": "felipechiodini/cpf",
     "description": "Util class for cpf things",
     "type": "library",
     "autoload": {

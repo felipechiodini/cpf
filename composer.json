@@ -1,0 +1,17 @@
+{
+    "name": "felipechiodini/cpf-validator",
+    "description": "Util class for cpf things",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Felipechiodini\\CpfValidator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Felipe Bona",
+            "email": "felipechiodinibona@hotmail.com"
+        }
+    ],
+    "require": {}
+}

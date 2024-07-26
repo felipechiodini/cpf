@@ -31,4 +31,9 @@ class Cpf {
         return Validator::isInvalid($this);
     }
 
+    public function __toString()
+    {
+        return $this->cpf;
+    }
+
 }

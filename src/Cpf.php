@@ -21,14 +21,14 @@ class Cpf {
         return preg_replace("/(\d{3})(\d{3})(\d{3})(\d{2})/", "\$1.\$2.\$3-\$4", $this->cpf);
     }
 
-    public function isInvalid(): Bool
+    public function isValid(): Bool
     {
         return Validator::isValid($this);
     }
 
-    public function isValid(): Bool
+    public function isInvalid(): Bool
     {
-        return Validator::isValid($this);
+        return Validator::isInvalid($this);
     }
 
 }
